@@ -1,0 +1,190 @@
+styling needs to be in other doc not in html doc
+
+first of all you need to link folders to css
+and then in the title:
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+This will link the css file to the HTML file.
+
+we can use color as name/RGB/Hexadecimal values.
+
+for class use .class-name
+for id use #id-name
+Like that you can do changes only in the class or the id 
+
+
+Change size font:
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+Change line height:
+    line-height: 1.6em;
+
+
+Size options:
+em
+px
+m
+
+To change colors:
+    color: #fff;
+
+To change background colors:
+    background-color: #333;
+
+
+Margin = Spacing around a element
+for containers - percentage (width: 80%;)
+
+Padding - inside space
+Margin - outside space
+
+Options:
+First:
+p{
+    margin: 5px 10px 5px 10px;
+}
+So:
+p{
+    margin: 5px(top) 10px(right) 5px(buttom) 10px(left)
+}
+
+or
+p{
+    margin: 5px(top-buttom) 10px(left-right);
+}
+
+
+if you are editing the same element it will execute only the last style element that you did.
+
+
+Super important.
+*{
+ 
+}
+will effect all the html page.
+
+Comment */ and /*
+
+
+Syle text:
+letter-spacing: 0.2em; (letter space)
+    word-spacing: 1em; (each word space )
+
+
+We can change the only h1 on only a seperate containers
+ .conatiner h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+list-style for UL
+
+.categories h2{
+    text-align: center; Text Allignment
+}
+
+
+For hover decoration:
+a:hover{
+    color: red;
+}
+And than it will be red when I hover it
+
+a:active{
+    when you click on it will be doing something
+}
+
+a:visited{
+    when they visit the link
+}
+
+Form
+.my-form label{
+    display: block; Block give another space in the table or form
+}
+
+
+
+Class!! For each button to every button.
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+Like that all the button will be like that.
+if I want to change it I can do a monipulation in the class of any div and just use the type=submit.
+
+
+
+
+Super Important
+If i want to have 3 block near to each other i need float func
+
+.block{
+    float: left;
+    width: 33.3%;
+}
+
+It will be amazing for doing some style and information design.
+
+When I have problem with sizes in boxes
+use
+     box-sizing: border-box;
+
+To clear float use:
+clr{
+    clear: both;
+}
+
+It will be easy not to mess up all of the alignemt together.
+
+
+
+Positioning!
+Static - defualt value
+Relative - Element to stick and push relative to the size of the next containers 
+Absolute - Element will be beyond everything else
+Fixed - Same position in the screen
+initial - Defult value
+inherit - inherit to the same position of the perent elements
+
+#Relative helps Absolute for positioning!
+
+
+Color only even
+.my-list li:nth-child(even){
+    background-color: #333;
+}
+It will be good for styling certain things...
+
+
+
+
+
+Will go to the side:
+#navbar li{
+    display: inline;
+}
+
+If the text is auto and I need more size eliment so use min-height in the box!
+    min-height: 300px;
+
+
+
+Super important!
+For smartphone we want to use @media
+@media(max-width 600px){   
+}
+
+is good example of that.
+
+
+
+
+

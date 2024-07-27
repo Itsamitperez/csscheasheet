@@ -1,0 +1,174 @@
+/*
+*{
+ margin: 0px;   
+ padding: 0px;
+}
+*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    border: 5px red solid;
+
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding-left: 20px;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+    list-style-image: url('../img/checkmark.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea, .my-form input[type="email"]{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    color: red;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#side-bar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../img/bgimage.jpg);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: 80%;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:last-child{
+    background: red;
+}
+
+.my-list li:nth-child(even){
+    background-color: #333;
+}
